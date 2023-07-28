@@ -1,0 +1,110 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #F8F8F8;
+}
+.mainBody{
+  width: 270px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+}
+.mainBody .logo{
+  font-size: 30px;
+  color: #0339F9;
+  font-weight: bold;
+}
+.mainBody .mobile{
+  margin: 10px 0px;
+  
+}
+.mainBody .password{
+  margin: 10px 0px;
+}
+.mainBody .password input ,.mobile input{
+  width: 260px;
+  height: 25px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background: #F8F0F0;
+}
+/*.mainBody input:hover{
+  background: #F8F0F0;
+  
+}*/
+.mainBody input::placeholder{
+  color: gray;
+}
+.mainBody .login{
+  margin: 10px 0px;
+}
+.mainBody .login button{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  width: 270px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #0339F8;
+}
+.mainBody .foPass{
+  margin: 5px 0px;
+}
+.mainBody .foPass a{
+  font-size: 10px;
+  color: #0339F9;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+/*create */
+.mainBody .create {
+  margin: 20px;
+}
+.mainBody .create button{
+  width: 200px;
+  height: 40px;
+  color: white;
+  background: #00A300;
+  border: none;
+  outline: none;
+}
+.mainBody .or{
+  margin-top: 20px;
+  border-top: 2px solid grey;
+  position: relative;
+}
+.mainBody .or p{
+  font-size: 12px;
+  background: #F8F8F8;
+  text-align: center;
+  padding: 0px 10px;
+  position: absolute;
+  right: 135px;
+  top: -21px;
+  
+}
+/*Extra*/
+.extraBody{
+  /*display: block;
+  flex-direction: column;
+ justify-content: center;*/
+  text-align: center;
+}
+.extraBody .serLink a{
+  color: black;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.extraBody .Copyright{
+  margin-top: 15px;
+  color: gray;
+}
